@@ -1,0 +1,69 @@
+
+
+html,body {
+width: 100px;
+height: 100px;
+margin 0px;
+font: 4px sans-serif;
+line-height: 4px;
+word-wrap: bread-word}
+#key div {
+margin-left: 10px;
+}
+
+#styles
+{
+    display: none;
+}
+#key{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#handle
+{
+    left: -10px;
+     top: 34px;
+     display: inline-block;
+     width: 16px;
+     height:  16px;
+     border:8px solid red;
+     position: absolute;
+     border-radius: 30px;
+}
+
+.ward:nth-child(1) {
+    position: absolute;
+    left: 20px;
+    top:45px;
+    width: 65px;
+    height: 10px;
+    background-color: #000000;
+}
+.ward:nth-child(2) {
+    position: absolute;
+    left: 58px;
+    top:38px;
+    width: 27px;
+    height: 8px;
+    background-color: #fff;
+}
+
+
+.ward:nth-child(3) {
+    position: absolute;
+    left:80px;
+    top:45px;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+
+#key #stem {
+overflow: visible;
+width: 0;
+background: purple!important;
+white-space: nowrap;
+}
